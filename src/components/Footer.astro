@@ -1,0 +1,13 @@
+---
+---
+
+<footer class="blur">
+  <small>Copyright &copy; <span id="copyrightYear">2022</span> Desgn</small>
+</footer>
+
+<script>
+  const copyright = document.querySelector("#copyrightYear");
+  if (copyright !== null) {
+    copyright.textContent = new Date().getFullYear().toString();
+  }
+</script>
